@@ -1,0 +1,7 @@
+# Site settings
+title: Laura Hudson
+description: Laura Hudson
+url: "" 
+
+# Build settings
+markdown: kramdown

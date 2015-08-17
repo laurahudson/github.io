@@ -1,0 +1,6 @@
+{% include menu/links.html %}
+<div class="burger-holder">
+	<div class="burger-wrapper">
+		<img class="burger toggle-nav" src="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}assets/images/operators/cross_24.png" alt="Close Menu"/>
+	</div>
+</div>

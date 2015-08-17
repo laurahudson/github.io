@@ -1,0 +1,16 @@
+<footer>
+	<div class="row">
+		<div class="small-12 medium-6 columns telephone">
+			<p>Laura Hudson Mackay LRPS</p>
+			<p><a href="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}about/">Read more about Laura Hudson Mackay</a></p>
+		</div>
+		<div class="small-12 medium-6 columns social">
+			{% include social/content.html %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns copyright">
+			<p>www.laurahudsonmackay.co.uk/</p>
+		</div>
+	</div>
+</footer>

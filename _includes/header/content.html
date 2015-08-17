@@ -1,0 +1,10 @@
+<section class="header">
+	<div class="row" data-equalizer>
+		<div class="small-6 medium-8 large-2 columns" data-equalizer-watch>
+			<a href="/"><img src="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}assets/images/logos/laura-hudson.png" class="logo" alt="Laura Hudson"/></a>
+		</div>
+		<div class="small-6 medium-4 large-10 columns menu" data-equalizer-watch>
+			{% include menu/content.html %}
+		</div>
+	</div>
+</section>
