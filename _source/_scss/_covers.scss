@@ -72,7 +72,7 @@
 								background-size: cover;
 								background-position:bottom right;
 							}
-							&.stairs {
+							&.stairs2 {
 								background: url('#{$gallery}/thresholds/8.jpg') no-repeat; 
 								background-size: cover;
 								background-position:bottom right;
@@ -84,6 +84,21 @@
 							}
 							&.doors {
 								background: url('#{$gallery}/thresholds/12.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.com1 {
+								background: url('#{$gallery}/thresholds/comm001.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.com2 {
+								background: url('#{$gallery}/thresholds/comm002.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.com3 {
+								background: url('#{$gallery}/thresholds/comm003.jpg') no-repeat; 
 								background-size: cover;
 								background-position:bottom right;
 							}
@@ -170,6 +185,319 @@
 							}
 							&.wraithlight {
 								background: url('#{$gallery}/stillness/wraithlight.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							// Vision of time 
+							&.visionsoftime1 {
+								background: url('#{$gallery}/visions-of-time/large/visionsoftime1.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.visionsoftime2 {
+								background: url('#{$gallery}/visions-of-time/large/visionsoftime2.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							// Beholding
+							&.woodenflowers {
+								background: url('#{$gallery}/beholding/large/1.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.sharpflower {
+								background: url('#{$gallery}/beholding/large/2.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.painting {
+								background: url('#{$gallery}/beholding/large/3.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.spiral {
+								background: url('#{$gallery}/beholding/large/4.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.winecorgs {
+								background: url('#{$gallery}/beholding/large/5.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.driedflower {
+								background: url('#{$gallery}/beholding/large/6.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.rosesinwater {
+								background: url('#{$gallery}/beholding/large/7.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.rope {
+								background: url('#{$gallery}/beholding/large/8.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.gate {
+								background: url('#{$gallery}/beholding/large/10.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.nail {
+								background: url('#{$gallery}/beholding/large/9.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.flowersinwater {
+								background: url('#{$gallery}/beholding/large/flowers.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.child {
+								background: url('#{$gallery}/beholding/large/11.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							// In arabian nights
+							&.cryingman {
+								background: url('#{$gallery}/in-arabian-nights/large/1.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.arabic {
+								background: url('#{$gallery}/in-arabian-nights/large/2.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.speech {
+								background: url('#{$gallery}/in-arabian-nights/large/3.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.arabiccorridor {
+								background: url('#{$gallery}/in-arabian-nights/large/4.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.camel {
+								background: url('#{$gallery}/in-arabian-nights/large/5.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.aladin {
+								background: url('#{$gallery}/in-arabian-nights/large/6.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.mask {
+								background: url('#{$gallery}/in-arabian-nights/large/7.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.weirdcorridor {
+								background: url('#{$gallery}/in-arabian-nights/large/8.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media #{$medium-up} {}
+
+@media #{$large-up} {
+	section {
+		&.content {
+			&.index {
+				> .row {
+					> .columns {
+						&.welcome {
+							background: url('#{$covers}/large/welcome.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.thresholds {
+							background: url('#{$covers}/large/thresholds.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.stillness {
+							background: url('#{$covers}/large/stillness.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.visions-of-time {
+							background: url('#{$covers}/large/visions-of-time.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.beholding {
+							background: url('#{$covers}/large/beholding.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.in-arabian-nights {
+							background: url('#{$covers}/large/in-arabian-nights.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.exhibitions {
+							background: url('#{$covers}/large/exhibitions.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+					}
+				}
+			}
+			&.gallery {
+				> .row {
+					> .columns {
+						.cover {
+							// Thresholds
+							&.window {
+								background: url('#{$gallery}/thresholds/large/7.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.millhouse {
+								background: url('#{$gallery}/thresholds/large/1.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.houses {
+								background: url('#{$gallery}/thresholds/large/4.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.fisherman {
+								background: url('#{$gallery}/thresholds/large/fishermansrefuge.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.olivestreet {
+								background: url('#{$gallery}/thresholds/large/newolivestreet.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.stairs2 {
+								background: url('#{$gallery}/thresholds/large/8.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.hall {
+								background: url('#{$gallery}/thresholds/large/11.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.doors {
+								background: url('#{$gallery}/thresholds/large/12.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.com1 {
+								background: url('#{$gallery}/thresholds/large/comm001.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.com2 {
+								background: url('#{$gallery}/thresholds/large/comm002.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.com3 {
+								background: url('#{$gallery}/thresholds/large/comm003.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							// stillness
+							&.snakeflower {
+								background: url('#{$gallery}/stillness/large/2.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.whiteflower {
+								background: url('#{$gallery}/stillness/large/3.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.fishflowers {
+								background: url('#{$gallery}/stillness/large/5.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.tallflower {
+								background: url('#{$gallery}/stillness/large/6.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.tworoses {
+								background: url('#{$gallery}/stillness/large/7.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.trees {
+								background: url('#{$gallery}/stillness/large/9.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.house {
+								background: url('#{$gallery}/stillness/large/escape.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.sunflower {
+								background: url('#{$gallery}/stillness/large/flowers.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.nature {
+								background: url('#{$gallery}/stillness/large/fragilenature.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.illumination {
+								background: url('#{$gallery}/stillness/large/illumination.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.landsview {
+								background: url('#{$gallery}/stillness/large/landisview1.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.landsview2 {
+								background: url('#{$gallery}/stillness/large/landisview2.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.petals {
+								background: url('#{$gallery}/stillness/large/seapetals.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.stairs {
+								background: url('#{$gallery}/stillness/large/stairs.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.thefog {
+								background: url('#{$gallery}/stillness/large/thefog.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.tree {
+								background: url('#{$gallery}/stillness/large/tree.jpg') no-repeat; 
+								background-size: cover;
+								background-position:bottom right;
+							}
+							&.wraithlight {
+								background: url('#{$gallery}/stillness/large/wraithlight.jpg') no-repeat; 
 								background-size: cover;
 								background-position:bottom right;
 							}
@@ -286,65 +614,6 @@
 								background-size: cover;
 								background-position:bottom right;
 							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-@media #{$medium-up} {}
-
-@media #{$large-up} {
-	section {
-		&.content {
-			&.index {
-				> .row {
-					> .columns {
-						&.welcome {
-							background: url('#{$covers}/large/welcome.jpg') no-repeat; 
-							background-size: cover;
-							background-position:center;
-						}
-						&.thresholds {
-							background: url('#{$covers}/large/thresholds.jpg') no-repeat; 
-							background-size: cover;
-							background-position:center;
-						}
-						&.stillness {
-							background: url('#{$covers}/large/stillness.jpg') no-repeat; 
-							background-size: cover;
-							background-position:center;
-						}
-						&.visions-of-time {
-							background: url('#{$covers}/large/visions-of-time.jpg') no-repeat; 
-							background-size: cover;
-							background-position:center;
-						}
-						&.beholding {
-							background: url('#{$covers}/large/beholding.jpg') no-repeat; 
-							background-size: cover;
-							background-position:center;
-						}
-						&.in-arabian-nights {
-							background: url('#{$covers}/large/in-arabian-nights.jpg') no-repeat; 
-							background-size: cover;
-							background-position:center;
-						}
-						&.exhibitions {
-							background: url('#{$covers}/large/exhibitions.jpg') no-repeat; 
-							background-size: cover;
-							background-position:center;
-						}
-					}
-				}
-			}
-			&.gallery {
-				> .row {
-					> .columns {
-						.cover {
-
 						}
 					}
 				}
