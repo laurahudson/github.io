@@ -10,6 +10,7 @@
 				padding-top: 20px;
 				text-align: center;
 				&.telephone {
+					padding-bottom:20px;
 					> p {
 						margin:5px;
 						&.small {
@@ -60,6 +61,9 @@
 			> .columns{
 				padding-top:0px;
 				text-align:initial;	
+				&.telephone {
+					padding-bottom:0px;
+				}
 				&.social {
 					text-align:right;
 					> a {
