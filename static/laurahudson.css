@@ -8464,70 +8464,72 @@ ul.off-canvas-list {
     /* line 19, _scss/_navigation.scss */
     #site-menu > .mobile-menu {
       display: table;
-      height: 100%; }
-      /* line 22, _scss/_navigation.scss */
+      height: 100%;
+      width: 100%; }
+      /* line 23, _scss/_navigation.scss */
       #site-menu > .mobile-menu > nav {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
         width: 100%;
         padding-top: 40px;
-        padding-bottom: 40px; }
-        /* line 29, _scss/_navigation.scss */
+        padding-bottom: 40px;
+        width: 100%; }
+        /* line 31, _scss/_navigation.scss */
         #site-menu > .mobile-menu > nav > ul {
           list-style: none;
           margin: 0px;
           width: 100%; }
-          /* line 33, _scss/_navigation.scss */
+          /* line 35, _scss/_navigation.scss */
           #site-menu > .mobile-menu > nav > ul > li {
             margin: 8px; }
-            /* line 35, _scss/_navigation.scss */
+            /* line 37, _scss/_navigation.scss */
             #site-menu > .mobile-menu > nav > ul > li > a {
               color: #383838;
               text-transform: uppercase; }
-      /* line 42, _scss/_navigation.scss */
+      /* line 44, _scss/_navigation.scss */
       #site-menu > .mobile-menu > .burger-holder {
         position: absolute;
         top: 35px;
         right: 35px; }
-        /* line 47, _scss/_navigation.scss */
+        /* line 49, _scss/_navigation.scss */
         #site-menu > .mobile-menu > .burger-holder > .burger-wrapper > img {
           max-height: 18px; } }
 @media only screen and (min-width: 55.063em) {
-  /* line 60, _scss/_navigation.scss */
+  /* line 62, _scss/_navigation.scss */
   .menu nav {
     display: table;
     height: 100%;
     margin-left: auto; }
-    /* line 64, _scss/_navigation.scss */
+    /* line 66, _scss/_navigation.scss */
     .menu nav > ul {
       list-style: none;
       margin: 0px;
       display: table-cell;
       vertical-align: middle; }
-      /* line 69, _scss/_navigation.scss */
+      /* line 71, _scss/_navigation.scss */
       .menu nav > ul > li {
         display: inline;
         margin: 5px; }
-        /* line 72, _scss/_navigation.scss */
+        /* line 74, _scss/_navigation.scss */
         .menu nav > ul > li > a {
           text-transform: uppercase;
           font-size: 0.9rem;
           color: #383838; }
-          /* line 76, _scss/_navigation.scss */
+          /* line 78, _scss/_navigation.scss */
           .menu nav > ul > li > a:hover {
             color: #383838; }
-          /* line 79, _scss/_navigation.scss */
+          /* line 81, _scss/_navigation.scss */
           .menu nav > ul > li > a:focus {
             color: #383838; }
-  /* line 86, _scss/_navigation.scss */
+  /* line 88, _scss/_navigation.scss */
   .menu > .burger-holder {
     display: none; } }
 @media only screen and (min-width: 65.063em) {
-  /* line 95, _scss/_navigation.scss */
+  /* line 97, _scss/_navigation.scss */
   .menu nav > ul > li {
     margin: 0px 8px 0px 8px; }
-    /* line 97, _scss/_navigation.scss */
+    /* line 99, _scss/_navigation.scss */
     .menu nav > ul > li > a {
       font-size: 1.1rem; } }
 @media only screen {
