@@ -9411,7 +9411,7 @@ ul.off-canvas-list {
           padding-bottom: 20px; }
           /* line 14, _scss/_footer.scss */
           footer > .row > .columns.telephone > p {
-            margin: 5px; }
+            margin: 5px 0; }
             /* line 16, _scss/_footer.scss */
             footer > .row > .columns.telephone > p.small {
               margin-bottom: 10px; }
