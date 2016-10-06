@@ -135,7 +135,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('default', ['js','css','html']);
 	grunt.registerTask('css', ['sass:dev', 'html']);
 	grunt.registerTask('html', ['jekyll:dev']);
-	grunt.registerTask('js', ['jshint', 'concat:dev', 'uglify:dev', 'html']);
+	grunt.registerTask('js', ['concat:dev', 'uglify:dev', 'html']);
 	grunt.registerTask('dev', ['css','html']);
 	grunt.registerTask('dev js', ['js']);
 };
